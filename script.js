@@ -15,11 +15,9 @@ function blockToggle(event){
 	event.stopPropagation();
 	var $this = $(this);
 	if ($( this ).is( ":first-child" )) {
-		console.log($('.selected').length === 0);
 		if ($(this).hasClass("selected")) {
 			$(this).removeClass('selected').addClass('unselected');
-			console.log($('.selected').length === 0);
-		} else {
+		} else if ($('.selected').length ===0){
 		$(this).removeClass('unselected').addClass('selected');
 			}
 	}
@@ -43,7 +41,6 @@ function moveBlock(event) {
 	};
 
 	function test() {
-			console.log($('#tower3').children().children().length);
 	if ($('#tower3').children().children().length === 3) {
 		alert("You won. No one cares.\n Tower games are for sadists\nGo play outside. Now");
 	}
