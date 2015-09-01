@@ -5,29 +5,30 @@
 	height: 400px;
 	position: relative;
 }
-#block1 {
+.wrapper {
+	position: absolute;
+	bottom: 0;
+}
+.block {
+	margin: -6% auto 0;
 	background-image: url('block.png');
 	background-size: cover;
+}
+.selected {
+	background-image: url('blockWhite.png');
+	background-size: cover;
+	margin: -6% auto 0;
+}
+#block1 {
 	height: 55px;
 	width: 160px;
-	position: absolute;
-  bottom: 135px;
-  left: 72px;
 }
 #block2 {
-	background-image: url('block.png');
-	background-size: cover;
-	height: 70px;
-	width: 205px;
-	position: absolute;
-  bottom: 80px;
-  left: 48px;
+	height: 75px;
+	width: 215px;
 }
 #block3 {
-	background-image: url('block.png');
-	background-size: cover;
 	height: 100px;
 	width: 300px;
-	position: absolute;
-  bottom: 0px;
 }
+
