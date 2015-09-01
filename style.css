@@ -8,16 +8,17 @@
 .wrapper {
 	position: absolute;
 	bottom: 0;
-}
-.block {
-	margin: -6% auto 0;
-	background-image: url('block.png');
-	background-size: cover;
+	width: 100%;
 }
 .selected {
 	background-image: url('blockWhite.png');
 	background-size: cover;
 	margin: -6% auto 0;
+}
+.unselected {
+	margin: -6% auto 0;
+	background-image: url('block.png');
+	background-size: cover;
 }
 #block1 {
 	height: 55px;
