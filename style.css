@@ -1,3 +1,18 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url(GBShinto-Regular.otf);
+}
+
+body {
+	font-family: myFirstFont;
+}
+.game-container {
+	max-width: 950px;
+}
+.title {
+	font-size: 2em;
+	text-align: center;
+}
 .tower {
 	display: inline-block;
 	border: solid 5px black;
