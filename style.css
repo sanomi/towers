@@ -6,6 +6,10 @@
 body {
 	font-family: myFirstFont;
 }
+.instructions {
+	display: inline-block;
+	width: 310px;
+}
 .game-container {
 	max-width: 950px;
 }
