@@ -42,6 +42,6 @@ function moveBlock(event) {
 
 	function test() {
 	if ($('#tower3').children().children().length === 3) {
-		alert("Glorious Winner, this humble haiku is your reward:\n Towers of Hanoi\n Are no match for your prowess\nGreatness follows you");
+		alert("Glorious Winner, this humble haiku is your reward:\n \n Towers of Hanoi\n Are no match for your prowess\nGreatness follows you");
 	}
 }
