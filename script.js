@@ -42,6 +42,6 @@ function moveBlock(event) {
 
 	function test() {
 	if ($('#tower3').children().children().length === 3) {
-		alert("You won. No one cares.\n Tower games are for sadists\nGo play outside. Now");
+		alert("Glorious Winner, this humble haiku is your reward:\n Towers of Hanoi\n Are no match for your prowess\nGreatness follows you");
 	}
 }
